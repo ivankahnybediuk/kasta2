@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;;
+}
+
+
+body {
+    background: grey;
+}
+.product{
+    position: relative;
+    width: 25%;
+    float: left;
+height: 550px;
+background: white;
+padding: 20px;
+}
+
+.product_image {
+    text-align: center;
+    
+}
+
+.product_price {
+    font-weight: bold;
+font-size: 20px;
+}
+
+.product_discount {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: red;
+    color: white;
+    font-size: 20px;
+    
+}
+
+.product_last {
+    text-decoration: line-through;
+    color: grey;
+}
+
+.product_bottom {
+    position: absolute;
+    top: 460px;
+    left: 250px;
+    color: teal;
+    border: 1px solid teal;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0px 2px 4px teal;
+}
+
+.product_sale{
+    color: red;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.product_bag {
+    margin-top: 5px;
+    font-size: 15px;
+}
