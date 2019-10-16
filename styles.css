@@ -3,63 +3,84 @@
     margin: 0;
     font-family: sans-serif;;
 }
-
-
-body {
-    background: grey;
+body{
+    background: cornsilk;
 }
 .product{
     position: relative;
-    width: 25%;
-    float: left;
-height: 550px;
-background: white;
-padding: 20px;
-}
-
-.product_image {
-    text-align: center;
-    
-}
-
-.product_price {
-    font-weight: bold;
-font-size: 20px;
-}
-
-.product_discount {
-    position: absolute;
-    right: 0;
-    top: 0;
-    background: red;
-    color: white;
-    font-size: 20px;
-    
-}
-
-.product_last {
-    text-decoration: line-through;
-    color: grey;
-}
-
-.product_bottom {
-    position: absolute;
-    top: 460px;
-    left: 250px;
-    color: teal;
-    border: 1px solid teal;
-    border-radius: 5px;
+    width: 22.5%;
+    height: 610px;
     padding: 5px;
-    box-shadow: 0px 2px 4px teal;
+    float: left;
+    background: white;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    margin: 10px;
 }
-
+.product_image{
+    position: absolute;
+}
+.product_discount{
+    position: absolute;
+    top:0px;
+    right: 0px;
+    background:#ff445e;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 0px 5px 0px 5px;
+}
+.product_price{
+    position: absolute;
+    top:450px;
+    left: 10px;
+    font-weight: bold;
+    font-size: 23px;
+}
+.product_last{
+    position: absolute;
+    top: 479px;
+    left:10px;
+    text-decoration: line-through;
+    font-size: 21px;
+    color: #717d84;
+}
+.product_bottom{
+    position: absolute;
+    top:450px;
+    left: 160px;
+    color: #4c80ac;
+    border:solid 1px #cfcfcf;
+    border-radius: 6px;
+    box-shadow: 0px 3px #cfcfcf;
+    width: 40%;
+    height: 38px;
+    padding-top: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 21px;
+}
 .product_sale{
-    color: red;
+    position: absolute;
+    top: 520px;
+    left:10px;
+    color:#ff445e;
     font-size: 15px;
-    margin-top: 15px;
 }
-
-.product_bag {
-    margin-top: 5px;
-    font-size: 15px;
+.product_name{
+    position: absolute;
+    top: 555px;
+    left:10px; 
+    font-size: 15px; 
+}
+.delivery{
+    position: absolute;
+    top:8px;
+    left: 8px; 
+    width: 35px;
+    height: auto;
 }
